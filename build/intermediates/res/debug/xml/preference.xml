@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:files="http://schemas.android.com/apk/res/com.cloudMinds.filemanager"
+    android:key="parent" >
+
+    <com.cloudMinds.filemanager.IconPreferenceScreen
+        android:title="@string/str_settings_normal"
+        files:icon="@android:drawable/ic_menu_preferences" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.cloudMinds.filemanager.FileNormalSettingsActivity"
+            android:targetPackage="com.cloudMinds.filemanager" />
+    </com.cloudMinds.filemanager.IconPreferenceScreen>
+
+</PreferenceScreen><!-- From: file:/C:/Users/文杰/Desktop/android/FileManagerMainActivity/res/xml/preference.xml -->

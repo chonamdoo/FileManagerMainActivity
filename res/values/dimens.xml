@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="pie_width">200px</dimen>
+<dimen name="pie_height">200px</dimen>
+<dimen name="progress_size">32dp</dimen>
+<dimen name="icon_size">48dp</dimen>
+</resources>

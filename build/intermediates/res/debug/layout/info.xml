@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sdinfo_bg_color" >
+
+    <ScrollView
+        android:id="@+id/sd_detial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="9dp"
+        android:scrollbars="none"
+        android:visibility="gone" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/info_layout_common1"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <LinearLayout
+                style="@style/info_layout_common1"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" >
+
+                <TextView
+                    style="@style/info_text_common1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/title_rom_sdcard"
+                    android:textSize="18sp" />
+
+                <!--
+                 <LinearLayout style="@style/info_layout_common1" 
+                android:gravity="center">
+                -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="7dp"
+                    android:background="@color/sdinfo_item_color"
+                    android:gravity="center" >
+
+                        <LinearLayout
+                            style="@style/info_layout_common1"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+                            <TextView
+                                style="@style/info_text_common2"
+                                android:text="@string/total" />
+
+                            <TextView
+                                android:id="@+id/internal_total"
+                                style="@style/info_text_common2" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/info_layout_common1"
+                            android:layout_weight="1"
+                            android:gravity="center" >
+
+                            <TextView
+                                style="@style/info_text_common2"
+                                android:text="@string/used" />
+
+                            <TextView
+                                android:id="@+id/internal_used"
+                                style="@style/info_text_common2" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/info_layout_common1"
+                            android:gravity="center"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                style="@style/info_text_common2"
+                                android:text="@string/last" />
+
+                            <TextView
+                                android:id="@+id/internal_last"
+                                style="@style/info_text_common2" />
+                        </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/info_layout_common1"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:id="@+id/sd_layout"
+                    style="@style/info_layout_common2"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:contentDescription="@string/description"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                style="@style/info_layout_common1"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="手机基本信息"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        style="@style/sd_text_item1"
+                        android:text="@string/phone_type" />
+
+                    <TextView
+                        android:id="@+id/phone_type"
+                        style="@style/sd_text_item2" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:contentDescription="@string/description"
+                    android:src="@drawable/line" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        style="@style/sd_text_item1"
+                        android:text="@string/system_version" />
+
+                    <TextView
+                        android:id="@+id/phone_system"
+                        style="@style/sd_text_item2" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:contentDescription="@string/description"
+                    android:src="@drawable/line" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        style="@style/sd_text_item1"
+                        android:text="@string/phone_resolution" />
+
+                    <TextView
+                        android:id="@+id/phone_resolution"
+                        style="@style/sd_text_item2" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:contentDescription="@string/description"
+                    android:src="@drawable/line" />
+
+                <LinearLayout
+                    android:id="@+id/mac_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" >
+
+                        <TextView
+                            style="@style/sd_text_item1"
+                            android:text="@string/phone_mac_address" />
+
+                        <TextView
+                            android:id="@+id/phone_mac_addres"
+                            style="@style/sd_text_item2" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="2dp"
+                        android:contentDescription="@string/description"
+                        android:src="@drawable/line" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/sd_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sdinfo_bg_color" 
+        android:gravity="center" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/文杰/Desktop/android/FileManagerMainActivity/res/layout/info.xml -->

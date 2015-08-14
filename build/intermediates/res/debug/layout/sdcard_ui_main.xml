@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/sdinfo_bg_color" 
+    android:layout_height="match_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/sdcard_viewPager"
+        android:layout_above="@+id/clear_garbage"
+        android:background="@color/sdinfo_bg_color" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+	
+    <Button 
+        android:id="@+id/clear_garbage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/clear_garbage"/>
+</RelativeLayout><!-- From: file:/C:/Users/文杰/Desktop/android/FileManagerMainActivity/res/layout/sdcard_ui_main.xml -->

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/info_layout_common1"
+    android:background="@color/sdinfo_bg_color"
+    android:paddingTop="15dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/sd_title"
+        style="@style/info_layout_common1"
+        android:gravity="center_horizontal"
+        android:text="外部存储卡"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sdinfo_item_color"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+          >
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    style="@style/info_text_common2"
+                    android:text="@string/total" />
+
+                <TextView
+                    android:id="@+id/sd_total"
+                    style="@style/info_text_common2"
+                    android:text="15.7GB" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:gravity="center" >
+
+                <TextView
+                    style="@style/info_text_common2"
+                    android:text="@string/used" />
+
+                <TextView
+                    android:id="@+id/sd_used"
+                    style="@style/info_text_common2"
+                    android:text="8GB" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:gravity="center" >
+
+                <TextView
+                    style="@style/info_text_common2"
+                    android:text="@string/last" />
+
+                <TextView
+                    android:id="@+id/sd_last"
+                    style="@style/info_text_common2"
+                    android:text="7.7GB" />
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/info_layout_common1"
+        android:baselineAligned="false"
+        android:layout_marginTop="5dp">
+
+       <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:gravity="center"
+           android:orientation="vertical">
+
+            <!--<LinearLayout
+                android:id="@+id/info_piechart"
+                android:layout_width="@dimen/pie_width"
+                android:layout_height="@dimen/pie_height"
+                android:gravity="center" >
+            </LinearLayout>-->
+           <RelativeLayout style="@style/info_layout_common1" >
+
+               <LinearLayout
+                   style="@style/info_layout_common1"
+                   android:gravity="center_vertical" >
+
+                   <ImageView
+                       android:id="@+id/icon_picture"
+                       style="@style/info_layout_common2" />
+
+                   <TextView
+                       style="@style/info_text_common2"
+                       android:layout_marginLeft="2dp"
+                       android:text="@string/category_picture" />
+
+                   <TextView
+                       android:id="@+id/picture_num"
+                       style="@style/info_text_common2"
+                       android:text="(406)" />
+               </LinearLayout>
+
+               <TextView
+                   android:id="@+id/picture_size"
+                   style="@style/info_text_common2"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="10dp"
+                   android:text="799.21MB" />
+           </RelativeLayout>
+
+           <RelativeLayout style="@style/info_layout_common1" >
+
+               <LinearLayout
+                   style="@style/info_layout_common1"
+                   android:gravity="center_vertical" >
+
+                   <ImageView
+                       android:id="@+id/icon_video"
+                       style="@style/info_layout_common2" />
+
+                   <TextView
+                       style="@style/info_text_common2"
+                       android:layout_marginLeft="2dp"
+                       android:text="@string/category_video" />
+
+                   <TextView
+                       android:id="@+id/video_num"
+                       style="@style/info_text_common2"
+                       android:text="(6)" />
+               </LinearLayout>
+
+               <TextView
+                   android:id="@+id/video_size"
+                   style="@style/info_text_common2"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="10dp"
+                   android:text="11.67MB" />
+           </RelativeLayout>
+
+           <RelativeLayout style="@style/info_layout_common1" >
+
+               <LinearLayout
+                   style="@style/info_layout_common1"
+                   android:gravity="center_vertical" >
+
+                   <ImageView
+                       android:id="@+id/icon_music"
+                       style="@style/info_layout_common2" />
+
+                   <TextView
+                       style="@style/info_text_common2"
+                       android:layout_marginLeft="2dp"
+                       android:text="@string/category_music" />
+
+                   <TextView
+                       android:id="@+id/music_num"
+                       style="@style/info_text_common2"
+                       android:text="(63)" />
+               </LinearLayout>
+
+               <TextView
+                   android:id="@+id/music_size"
+                   style="@style/info_text_common2"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="10dp"
+                   android:text="4.35MB" />
+           </RelativeLayout>
+
+           <RelativeLayout style="@style/info_layout_common1" >
+
+               <LinearLayout
+                   style="@style/info_layout_common1"
+                   android:gravity="center_vertical" >
+
+                   <ImageView
+                       android:id="@+id/icon_theme"
+                       style="@style/info_layout_common2" />
+
+                   <TextView
+                       style="@style/info_text_common2"
+                       android:layout_marginLeft="2dp"
+                       android:text="@string/category_theme" />
+
+                   <TextView
+                       android:id="@+id/theme_num"
+                       style="@style/info_text_common2"
+                       android:text="(5)" />
+               </LinearLayout>
+
+               <TextView
+                   android:id="@+id/theme_size"
+                   style="@style/info_text_common2"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="10dp"
+                   android:text="43.5MB" />
+           </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:padding="8dp"
+            >
+
+
+
+            <RelativeLayout style="@style/info_layout_common1" >
+
+                <LinearLayout
+                    style="@style/info_layout_common1"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/icon_doc"
+                        style="@style/info_layout_common2" />
+
+                    <TextView
+                        style="@style/info_text_common2"
+                        android:layout_marginLeft="2dp"
+                        android:text="@string/category_document" />
+
+                    <TextView
+                        android:id="@+id/doc_num"
+                        style="@style/info_text_common2"
+                        android:text="(0)" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/doc_size"
+                    style="@style/info_text_common2"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:text="0 B" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/info_layout_common1" >
+
+                <LinearLayout
+                    style="@style/info_layout_common1"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/icon_zip"
+                        style="@style/info_layout_common2" />
+
+                    <TextView
+                        style="@style/info_text_common2"
+                        android:layout_marginLeft="2dp"
+                        android:text="@string/category_zip" />
+
+                    <TextView
+                        android:id="@+id/zip_num"
+                        style="@style/info_text_common2"
+                        android:text="(10)" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/zip_size"
+                    style="@style/info_text_common2"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:text="79.21MB" />
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/info_layout_common1" >
+
+                <LinearLayout
+                    style="@style/info_layout_common1"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/icon_others"
+                        style="@style/info_layout_common2" />
+
+                    <TextView
+                        style="@style/info_text_common2"
+                        android:layout_marginLeft="2dp"
+                        android:text="@string/category_other" />
+
+                    <TextView
+                        android:id="@+id/others_num"
+                        style="@style/info_text_common2"
+                        android:text="(86)" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/others_size"
+                    style="@style/info_text_common2"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:text="89.21MB" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

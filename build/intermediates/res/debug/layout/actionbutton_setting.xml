@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+ 	android:id="@+id/actionbutton_setting"
+ 	android:paddingRight="10dp">
+        <ImageView
+            android:id="@+id/main_imbt"
+			android:layout_width="30dp"
+            android:layout_height="30dp"  
+            android:scaleType="fitXY" 
+            android:layout_gravity="center_horizontal"
+           
+          />
+        <TextView
+            android:id="@+id/main_txbt"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+         />
+
+
+</LinearLayout>
+<!-- From: file:/C:/Users/文杰/Desktop/android/FileManagerMainActivity/res/layout/actionbutton_setting.xml -->

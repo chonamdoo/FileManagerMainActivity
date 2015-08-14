@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\文杰\Desktop\android\FileManagerMainActivity\libs\ant-tools-zip.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8a7ac9b42fbb7ff27eb35e3e5165a04b738caf66">
+        <dex dex="C:\Users\文杰\Desktop\android\FileManagerMainActivity\build\intermediates\pre-dexed\debug\ant-tools-zip-f0d0f6e275d1f051533b076853480be0e34da15f.jar" />
+    </item>
+    <item
+        jar="C:\Users\文杰\Desktop\android\FileManagerMainActivity\libs\commons-vfs2-2.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4a66e6e6fa735213a1afcd202a852390b547a890">
+        <dex dex="C:\Users\文杰\Desktop\android\FileManagerMainActivity\build\intermediates\pre-dexed\debug\commons-vfs2-2.0-0fc2be0fd6d49c3d24ff39e0f8afaf9fcdc35092.jar" />
+    </item>
+    <item
+        jar="C:\Users\文杰\Desktop\android\FileManagerMainActivity\libs\afreechart-0.0.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a620cc3b8d3e12d9e7b0ce3435254279390fd4ef">
+        <dex dex="C:\Users\文杰\Desktop\android\FileManagerMainActivity\build\intermediates\pre-dexed\debug\afreechart-0.0.4-7cb705947a90ecf146d5efc996e697b7f8583d28.jar" />
+    </item>
+    <item
+        jar="C:\Users\文杰\Desktop\android\FileManagerMainActivity\libs\junrar-0.7-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="093ab08c49618d52364b91ff9d8c2cf22ba3d5ab">
+        <dex dex="C:\Users\文杰\Desktop\android\FileManagerMainActivity\build\intermediates\pre-dexed\debug\junrar-0.7-SNAPSHOT-31e13c77fe60ee329c425545cac6889545218dbe.jar" />
+    </item>
+    <item
+        jar="C:\Users\文杰\Desktop\android\FileManagerMainActivity\libs\android-support-v13.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0fd34484ae177eba79f5407a1c53d37b6a4ba307">
+        <dex dex="C:\Users\文杰\Desktop\android\FileManagerMainActivity\build\intermediates\pre-dexed\debug\android-support-v13-9d2d9c6e2375048157300e9a83029f1cd067d33d.jar" />
+    </item>
+    <item
+        jar="C:\Users\文杰\Desktop\android\FileManagerMainActivity\libs\commons-logging-1.1.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3b2888239ebec822dff8ed7ebf96293302e4b23b">
+        <dex dex="C:\Users\文杰\Desktop\android\FileManagerMainActivity\build\intermediates\pre-dexed\debug\commons-logging-1.1.2-79ec0d0d027b83551e7cbcff35df3fc857a78471.jar" />
+    </item>
+
+</items>

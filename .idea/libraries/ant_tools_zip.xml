@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ant-tools-zip">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/ant-tools-zip.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
